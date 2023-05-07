@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="./Imagenes/youtube.ico">
+    <title>YouTube</title>
+</head>
+<body>
+    <!-- Bloque Izquierdo o barra lateral-->
+    <aside>
+        <!--Burger Menu-->
+        <div id="BurgerMenu">
+            <img src="./Imagenes/BurgerMenu.png" alt="Burger Menu">
+        </div>
+        <!-- Inicio -->
+            <div class="iconos">
+                <img src="./Imagenes/HomeIcon.png" alt="Home">
+                <a href="https://www.youtube.com/" target="_blank">Principal</a>
+            </div>
+            <!-- Shorts -->
+            <div class="iconos">
+                <img src="./Imagenes/Shorts.png" alt="Shorts">
+                <a href="https://www.youtube.com/hashtag/shorts" target="_blank">Shorts</a>
+            </div>
+            <!-- Suscripciones -->
+            <div class="iconos">
+                <img src="./Imagenes/Suscripciones.png" alt="Suscripciones">
+                <a href="https://www.youtube.com/feed/subscriptions" target="_blank">Suscripciones</a>
+            </div>
+            <!-- Biblioteca -->
+            <div class="iconos">
+                <img src="./Imagenes/Biblioteca.png" alt="Biblioteca">
+                <a href="https://www.youtube.com/feed/library" target="_blank">Biblioteca</a>
+            </div>
+    </aside>
+    <!-- Bloque derecha -->
+    <main>
+        <!-- Barra de navegacion -->
+        <nav>
+            <!-- Logo-->
+            <a href="https://www.youtube.com" target="_blank"><img src="./Imagenes/LogoNavBar.png" alt="Logo youtube"></a>
+            <!-- Barra de busqueda y microfono -->
+            <div id="search">
+                <!-- Barra de busqueda y Lupa -->
+                <div id="searchbar"> 
+                    <input type="text" placeholder="    Buscar">
+                    <a><img src="./Imagenes/Lupa.png" alt="Lupa"></a>
+                </div>
+                <!-- Busqueda de voz-->
+                
+                <a id="mic"><img src="./Imagenes/VoiceSearch.png" alt="Microfono"></a>
+            </div>
+            <!-- Acciones de Usuario-->
+            <div id="Acciones">
+                <a class="accionesUsuario" href="https://www.youtube.com/upload" target="_blank">
+                    <img src="./Imagenes/SubirVideo.png" alt="Subir">
+                </a>
+                <a class="accionesUsuario">
+                    <img src="./Imagenes/Notificaciones.png" alt="Notificacines">
+                </a>
+                <a>
+                    <img src="./Imagenes/perfilg.png" alt="Gestion de Cuenta">
+                </a>
+            </div>
+        </nav>
+        <!-- Botones de recomendacion-->
+        <section id="recomendaciones">
+            <button>Todos</button>
+            <button>Divertido</button>
+            <button>Mixes</button>
+            <button>Música</button>
+            <button>Lana Del Rey</button>
+            <button>The Weeknd</button>
+            <button>En tiempo real</button>
+            <button>Maquillaje</button>
+            <button>Listas de reproducción</button>
+            <button>Videojuegos</button>
+            <button>Animación</button>
+            <button>R&B</button>
+        </section>
+        <!-- Cuadricula de videos -->
+        <section class="cuadriculaVideos">
+            <!-- Video 1 -->
+            <div class="video">
+                <div class="imgVideoMix">
+                    <a href="https://www.youtube.com/watch?v=i4SrBtyY3_o&list=RDi4SrBtyY3_o&start_radio=1" target="_blank"><img class="imgVideo" src="./Imagenes/video1.jpg" alt="Imagen video"></a>
+                <div class="linea3"></div>
+                <span class="material-icons">play_arrow</span>
+            </div>
+                <div class="descripcionVideo">
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=i4SrBtyY3_o&list=RDi4SrBtyY3_o&start_radio=1" target="_blank"><p class="titulo">Mix: The Weeknd - Stargirl Interlude (ft. Lana Del Rey) - Real Extended...</p><a href="https://www.youtube.com/watch?v=i4SrBtyY3_o&list=RDi4SrBtyY3_o&start_radio=1" target="_blank"></a>
+                        <a href="https://www.youtube.com/watch?v=i4SrBtyY3_o&list=RDi4SrBtyY3_o&start_radio=1" target="_blank"><p class="descripcion">Lana Del Rey, The Weeknd, Alice Kristiansen y muchos más</p></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Video 2 -->
+            <div class="video">
+                <a href="https://www.youtube.com/watch?v=HKRxBvLFCOw" target="_blank"><img class="imgVideo" src="./Imagenes/video2.jpg" alt="Imagen video"></a>
+                <div class="descripcionVideo">
+                    <a href="https://www.youtube.com/@Pauletteeoficial" target="_blank"><img class="imgCanalG" src="./Imagenes/canal2.jpg" alt="Imagen Canal"></a>
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=HKRxBvLFCOw" target="_blank"><p class="titulo">¡LA FAMILIA "PERFECTA"! - Paulettee</p></a>
+                        <a href="https://www.youtube.com/@Pauletteeoficial" target="_blank"><p class="canal">Paulettee</p></a>
+                        <a href="https://www.youtube.com/watch?v=HKRxBvLFCOw" target="_blank"><p class="vistas">3.9 M de vistas · hace 2 años</p></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Video 3 -->
+            <div class="video">
+                <div class="imgVideoMix">
+                <a href="https://www.youtube.com/watch?v=DPHtuiq6jeM&list=RDDPHtuiq6jeM&start_radio=1" target="_blank"><img class="imgVideo" src="./Imagenes/video3.jpg" alt="Imagen video"></a>
+                <div class="linea3"></div>
+                <span class="material-icons"> play_arrow </span>
+            </div>
+                <div class="descripcionVideo">
+                    <div><a href="https://www.youtube.com/watch?v=DPHtuiq6jeM&list=RDDPHtuiq6jeM&start_radio=1" target="_blank">
+                        <p class="titulo">Mix: One And Only</p>
+                        <p class="descripcion">Adele, Rihanna, Wiz Khalifa y muchos más</p></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Video 4 -->
+            <div class="video">
+                <img class="imgVideo" src="./Imagenes/video4.jpg" alt="Imagen video">
+                <div class="descripcionVideo">
+                    <a href="https://www.youtube.com/@PameSegura" target="_blank"><img class="imgCanalG" src="./Imagenes/canal4.jpg" alt="Imagen Canal"></a>
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=v8GmpJxiHDM&t=16s" target="_blank"><p class="titulo">Salvando Maquillaje de XV años - Pamela Segura</p></a>
+                        <a href="https://www.youtube.com/@PameSegura" target="_blank"><p class="canal">Pamela Segura</p></a>
+                        <a href="https://www.youtube.com/watch?v=v8GmpJxiHDM&t=16s" target="_blank"><p class="vistas">265 K vistas · hace 5 meses</p></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Video 5 -->
+            <div class="video">
+                <a href="https://www.youtube.com/watch?v=QbLGjeR9bvI" target="_blank"><img class="imgVideo" src="./Imagenes/video5.jpg" alt="Imagen video"></a>
+                <div class="descripcionVideo">
+                    <a href="https://www.youtube.com/channel/UCqk3CdGN_j8IR9z4uBbVPSg" target="_blank"><img class="imgCanalG" src="./Imagenes/canal5.jpg" alt="Imagen Canal"></a>
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=QbLGjeR9bvI" target="_blank"><p class="titulo"> Art Deco</p></a>
+                        <a href="https://www.youtube.com/channel/UCqk3CdGN_j8IR9z4uBbVPSg" target="_blank"><p class="canal">Lana Del Rey</p></a>
+                        <a href="https://www.youtube.com/watch?v=QbLGjeR9bvI" target="_blank"><p class="vistas">22 M de vistas · hace 4 años</p></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Video 6 -->
+            <div class="video">
+                <a href="https://www.youtube.com/watch?v=fF83oVu0iVg" target="_blank"><img class="imgVideo" src="./Imagenes/video6.jpg" alt="Imagen video"></a>
+                <div class="descripcionVideo">
+                    <a href="https://www.youtube.com/@tomaslunaok" target="_blank"><img class="imgCanalG" src="./Imagenes/canal6.jpg" alt="Imagen Canal"></a>
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=fF83oVu0iVg" target="_blank"><p class="titulo">Cómo Trabajar De Editor De Videos Y Vivir De Ello...</p></a>
+                        <a href="https://www.youtube.com/@tomaslunaok" target="_blank"><p class="canal">Tomas Luna</p></a>
+                        <a href="https://www.youtube.com/watch?v=fF83oVu0iVg" target="_blank"><p class="vistas">4.2 K vistas · hace 2 meses</p></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <!-- Seccion shorts-->
+        <section id="sectionshorts">
+            <section id="top-shorts">
+                <div id="shortslogo">
+                    <img src="./Imagenes/shortslogo.png" alt="Logo_shorts" class="shortslogoimg">
+                    <p>Shorts</p>
+                </div>
+                <img src="./Imagenes/close.png" alt="close_section">
+            </section>
+            
+            <section class="shorts">
+                <!-- short 1 -->
+                <div class="videoshort">
+                    <a href="https://youtube.com/shorts/0GpmLYXFAhU?feature=share" target="_blank"><img src="./Imagenes/short1.jpg" alt="short-1"></a>
+                    <div><a href="https://youtube.com/shorts/0GpmLYXFAhU?feature=share" target="_blank">
+                        <p class="titulo">El significado de Cherry #lanadelrey...</p>
+                        <p class="vistas">90 K vistas</p></a>
+                    </div>
+                </div>
+                <!-- Short 2-->
+                <div class="videoshort">
+                    <a href="https://youtube.com/shorts/rCYBW4QOBEM?feature=share" target="_blank"><img src="./Imagenes/short2.jpg" alt="short-1"></a>
+                    <div><a href="https://youtube.com/shorts/rCYBW4QOBEM?feature=share" target="_blank">
+                        <p class="titulo">face masks in reality</p>
+                        <p class="vistas">4.2 M de vistas</p></a>
+                    </div>
+                </div>
+                <!-- Short 3-->
+                <div class="videoshort">
+                    <a href="https://youtube.com/shorts/vRNoPrSn3Is?feature=share" target="_blank"><img src="./Imagenes/short3.jpg" alt="short-1"></a>
+                    <div><a href="https://youtube.com/shorts/vRNoPrSn3Is?feature=share" target="_blank">
+                        <p class="titulo">Sabias que? De Hello Kitty</p>
+                        <p class="vistas">3.8 M de vistas</p></a>
+                    </div>
+                </div>
+                <!-- Short 4-->
+                <div class="videoshort">
+                    <a href="https://youtube.com/shorts/wUQuN0rz0Ak?feature=share" target="_blank"><img src="./Imagenes/short4.jpg" alt="short-1"></a>
+                    <div><a href="https://youtube.com/shorts/wUQuN0rz0Ak?feature=share" target="_blank">
+                        <p class="titulo">1 SIM 7 DECADES | The Sims 4 #short...</p>
+                        <p class="vistas">1.4 M de vistas</p></a>
+                    </div>
+                </div>
+                <!-- Short 5-->
+                <div class="videoshort">
+                    <a href="https://youtube.com/shorts/IoHER9WH0xY?feature=share" target="_blank"><img src="./Imagenes/short5.jpg" alt="short-1"></a>
+                    <div><a href="https://youtube.com/shorts/IoHER9WH0xY?feature=share" target="_blank">
+                        <p class="titulo">Haciendo música en vivo [ Parte 1 ]</p>
+                        <p class="vistas">112 k vistas</p></a>
+                    </div>
+                </div>
+                <!-- Short 6-->
+                <div class="videoshort">
+                    <a href="https://youtube.com/shorts/6Df9TDccCsY?feature=share" target="_blank"><img src="./Imagenes/short6.jpg" alt="short-1"></a>
+                    <div><a href="https://youtube.com/shorts/6Df9TDccCsY?feature=share" target="_blank">
+                        <p class="titulo">Los productos más vírales de TikTok...</p>
+                        <p class="vistas">90 K vistas</p></a>
+                    </div>
+                </div>
+                <!-- Icono-->
+            </section>
+            <section>
+                <div class="icon">
+                <img src="./Imagenes/iconobajar.png" alt="">
+                </div>
+            </section>
+        </section>
+        <section class="cuadriculaVideos">
+            <!-- Video 7 -->
+            <div class="video">
+                <img class="imgVideo" src="./Imagenes/video7.jpg" alt="Imagen video">
+                <div class="descripcionVideo">
+                    <img class="imgCanalG" src="./Imagenes/canal7.jpg" alt="Imagen Canal">
+                    <div>
+                        <p class="titulo">LA CAÍDA DE KYLIE COSMETICS... Y EL...</p>
+                        <p class="canal">RosyMcMichael</p>
+                        <p class="vistas">285 K vistas · hace 2 meses</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Video 8 -->
+            <div class="video">
+                <img class="imgVideo" src="./Imagenes/video8.jpg" alt="Imagen video">
+                <div class="descripcionVideo">
+                    <img class="imgCanal" src="./Imagenes/canal8.jpg" alt="Imagen Canal">
+                    <div>
+                        <p class="titulo"> El confuso tema del dinero en Argentina | ¿UN DÓLAR VALE ORO...</p>
+                        <p class="canal">Luisito Comunica</p>
+                        <p class="vistas">763 K vistas · hace 6 horas</p>            
+                    </div>
+                </div>
+            </div>
+            <!-- Video 9 -->
+            <div class="video">
+                <img class="imgVideo" src="./Imagenes/video9.jpg" alt="Imagen video">
+                <div class="descripcionVideo">
+                    <img class="imgCanalG" src="./Imagenes/canal9.jpg" alt="Imagen Canal">
+                    <div>
+                        <p class="titulo">Converted Lighthouse 🏝️ // The Sims 4 Speed Build</p>
+                        <p class="canal">Gryphi</p>
+                        <p class="vistas">4.3 K vistas · hace 8 horas</p>
+                    </div>
+                </div>
+                </div>
+                <!-- Video 10 -->
+                <div class="video">
+                    <img class="imgVideo" src="./Imagenes/video10.jpg" alt="Imagen video">
+                    <div class="descripcionVideo">
+                        <img class="imgCanal" src="./Imagenes/canal10.jpg" alt="Imagen Canal">
+                        <div>
+                            <p class="titulo">Euphoria’s Alexa Demie Shares Her ’90s Glam Tutorial | Beauty Secrets...</p>
+                            <p class="canal">Vogue</p>
+                            <p class="vistas">24 M de vistas · hace 3 años</p>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- Video 11 -->
+                    <div class="video">
+                    <img class="imgVideo" src="./Imagenes/video11.jpg" alt="Imagen video">
+                    <div class="descripcionVideo">
+                        <img class="imgCanalG" src="./Imagenes/canal11.jpg" alt="Imagen Canal">
+                        <div>
+                            <p class="titulo">⋆୨୧˚🌷 rosy makeup🌷˚୨୧⋆ : tutorial</p>
+                            <p class="canal">diana gaby</p>
+                            <p class="vistas">136 k vistas · hace 2 semanas</p>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- Video 12 -->
+                    <div class="video">
+                    <img class="imgVideo" src="./Imagenes/video12.jpg" alt="Imagen video">
+                    <div class="descripcionVideo">
+                        <img class="imgCanal" src="./Imagenes/canal12.jpg" alt="Imagen Canal">
+                        <div>
+                            <p class="titulo">CSS Grid vs Flexbox - Cuando usar uno u otro.</p>
+                            <p class="canal">FalconMasters</p>
+                            <p class="vistas">251 k vistas · hace 1 año</p>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- Video 13 -->
+                    <div class="video">
+                        <img class="imgVideo" src="./Imagenes/video13.jpg" alt="Imagen video">
+                        <div class="descripcionVideo">
+                            <img class="imgCanal" src="./Imagenes/canal13.jpg" alt="Imagen Canal">
+                            <div>
+                                <p class="titulo">Hello Kitty and Friends - Supercute Adventures | Perfección - 1ª Temp. / E...</p>
+                                <p class="canal">Hello Kitty Latinoamérica</p>
+                                <p class="vistas">1.1 M de vistas · hace 1 año</p>
+                            </div>
+                        </div>
+                        </div>
+                    <!-- Video 14 -->
+                    <div class="video">
+                        <img class="imgVideo" src="./Imagenes/video14.jpg" alt="Imagen video">
+                        <div class="descripcionVideo">
+                            <img class="imgCanal" src="./Imagenes/canal14.jpg" alt="Imagen Canal">
+                            <div>
+                                <p class="titulo">REAL LIFE ENGLISH | Speak English Like A Native Speaker Episode 1</p>
+                                <p class="canal">Speak English With Tiffani</p>
+                                <p class="vistas">3.1 M de vistas · hace 1 año</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Video 15 -->
+                    <div class="video">
+                        <img class="imgVideo" src="./Imagenes/video15.jpg" alt="Imagen video">
+                        <div class="descripcionVideo">
+                            <img class="imgCanal" src="./Imagenes/canal15.jpg" alt="Imagen Canal">
+                            <div>
+                                <p class="titulo">Aprende GIT ahora! curso completo GRATIS desde cero</p>
+                                <p class="canal">HolaMundo</p>
+                                <p class="vistas">566 k vistas · hace 1 año</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Video 16 -->
+                    <div class="video">
+                        <img class="imgVideo" src="./Imagenes/video16.jpg" alt="Imagen video">
+                        <div class="descripcionVideo">
+                            <img class="imgCanal" src="./Imagenes/canal16.jpg" alt="Imagen Canal">
+                            <div>
+                                <p class="titulo">Si viste esto, fuiste MANIPULADO EMOCIONALMENTE 💔Te cuento...</p>
+                                <p class="canal">Dalas Review</p>
+                                <p class="vistas">1.7 M de vistas · hace 2 años</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Video 17 -->
+                    <div class="video">
+                        <img class="imgVideo" src="./Imagenes/video17.jpg" alt="Imagen video">
+                        <div class="descripcionVideo">
+                            <img class="imgCanalG" src="./Imagenes/canal17.jpg" alt="Imagen Canal">
+                            <div>
+                                <p class="titulo">Les</p>
+                                <p class="canal">Donald Glover</p>
+                                <p class="vistas">12 M de vistas · hace 7 meses</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Video 18 -->
+                    <div class="video">
+                        <img class="imgVideo" src="./Imagenes/video18.jpg" alt="Imagen video">
+                        <div class="descripcionVideo">
+                            <img class="imgCanalG" src="./Imagenes/canal18.jpg" alt="Imagen Canal">
+                            <div>
+                                <p class="titulo">finalProject</p>
+                                <p class="canal">andrewescu</p>
+                                <p class="vistas">821 k vistas · hace 4 meses</p>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+    </main>
+</body>
+</html>
